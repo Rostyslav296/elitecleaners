@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Elite Cleaners</title>
+    <meta name="description" content="Get a free cleaning quote from Elite Cleaners. Call Rusty at (864) 824-1536 or fill out our contact form. Serving Eastern Tennessee.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- ===== HEADER / NAVIGATION ===== -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2Z"/></svg>
+                Elite Cleaners
+            </a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="social.html">Social</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="photos.html">Photos</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- ===== PAGE HEADER ===== -->
+    <section class="page-header">
+        <h1>Contact Us</h1>
+        <p>Get a free quote or reach out with any questions. We'd love to hear from you.</p>
+    </section>
+
+    <!-- ===== CONTACT INFO ===== -->
+    <section class="section">
+        <div class="container">
+            <div class="contact-info-grid">
+
+                <div class="contact-info-card">
+                    <div class="icon">
+                        <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+                    </div>
+                    <h4>Phone</h4>
+                    <a href="tel:8648241536">(864) 824-1536</a>
+                    <p style="color: var(--color-text-light); font-size: 0.85rem; margin-top: 0.25rem;">Ask for Rusty</p>
+                </div>
+
+                <div class="contact-info-card">
+                    <div class="icon">
+                        <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                    </div>
+                    <h4>Email</h4>
+                    <a href="mailto:elitecleaners1@icloud.com">elitecleaners1@icloud.com</a>
+                </div>
+
+                <div class="contact-info-card">
+                    <div class="icon">
+                        <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                    </div>
+                    <h4>Service Area</h4>
+                    <p>Eastern Tennessee</p>
+                    <p style="color: var(--color-text-light); font-size: 0.85rem; margin-top: 0.25rem;">Knoxville, Gatlinburg, Pigeon Forge &amp; surrounding areas</p>
+                </div>
+
+            </div>
+
+            <!-- ===== CONTACT FORM ===== -->
+            <div class="contact-form-wrapper">
+                <h2>Get a Free Quote</h2>
+                <p class="form-subtitle">Fill out the form below and we'll get back to you within 24 hours.</p>
+
+                <!--
+                    IMPORTANT: Replace YOUR_ACCESS_KEY_HERE with your Web3Forms access key.
+                    To get a key:
+                    1. Go to https://web3forms.com
+                    2. Enter your email: elitecleaners1@icloud.com
+                    3. You'll receive an access key via email
+                    4. Replace YOUR_ACCESS_KEY_HERE below with that key
+                -->
+                <form id="contact-form">
+                    <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+                    <input type="hidden" name="subject" value="New Inquiry from Elite Cleaners Website">
+                    <input type="hidden" name="from_name" value="Elite Cleaners Website">
+                    <!-- Spam protection honeypot -->
+                    <input type="checkbox" name="botcheck" style="display: none;">
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Your Name *</label>
+                            <input type="text" id="name" name="name" required placeholder="John Smith">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required placeholder="john@example.com">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Needed</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service...</option>
+                                <option value="Airbnb / Short-Term Rental Turnover">Airbnb / Short-Term Rental Turnover</option>
+                                <option value="Office Cleaning">Office Cleaning</option>
+                                <option value="Commercial / Business Cleaning">Commercial / Business Cleaning</option>
+                                <option value="Hotel Cleaning">Hotel Cleaning</option>
+                                <option value="Deep Cleaning">Deep Cleaning</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Tell Us About Your Cleaning Needs *</label>
+                        <textarea id="message" name="message" required placeholder="Property size, number of bedrooms, frequency of service, any special requirements..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-teal" style="width: 100%;">Send Message</button>
+
+                    <div id="form-message" class="form-message"></div>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>Elite Cleaners</h3>
+                <p>Professional cleaning for short-term rentals, offices, hotels, and businesses.<br>Serving Eastern Tennessee.</p>
+                <p style="margin-top: 0.75rem;">
+                    <a href="tel:8648241536">(864) 824-1536</a><br>
+                    <a href="mailto:elitecleaners1@icloud.com">elitecleaners1@icloud.com</a>
+                </p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="social.html">Social</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="photos.html">Photos</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2026 Elite Cleaners. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

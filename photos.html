@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Work | Elite Cleaners</title>
+    <meta name="description" content="See Elite Cleaners' work in action. Browse photos of our cleaning results for Airbnbs, offices, and commercial properties in Eastern Tennessee.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- ===== HEADER / NAVIGATION ===== -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2Z"/></svg>
+                Elite Cleaners
+            </a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="social.html">Social</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="photos.html">Photos</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- ===== PAGE HEADER ===== -->
+    <section class="page-header">
+        <h1>Our Work</h1>
+        <p>Browse photos of our cleaning results. Click any photo to view it full size.</p>
+    </section>
+
+    <!-- ===== PHOTO GALLERY ===== -->
+    <!--
+        === HOW TO ADD A PHOTO ===
+        1. Put your image file in the images/photos/ folder
+           (recommended: JPEG format, max 1200px wide, quality 80%)
+        2. Copy one of the <figure> blocks below
+        3. Change the src to point to your new image: images/photos/your-photo.jpg
+        4. Update the alt text (describes the photo) and figcaption (caption shown below)
+
+        === HOW TO REMOVE A PHOTO ===
+        Delete the entire <figure>...</figure> block for that photo
+    -->
+    <section class="section">
+        <div class="container">
+            <div class="photo-gallery">
+
+                <!-- PLACEHOLDER: Replace these with your actual photos -->
+                <figure class="gallery-item">
+                    <div class="placeholder-img">
+                        <span>Add your first photo</span>
+                    </div>
+                    <figcaption>Airbnb Living Room - Gatlinburg</figcaption>
+                </figure>
+
+                <figure class="gallery-item">
+                    <div class="placeholder-img">
+                        <span>Add photo here</span>
+                    </div>
+                    <figcaption>Kitchen Deep Clean - Pigeon Forge</figcaption>
+                </figure>
+
+                <figure class="gallery-item">
+                    <div class="placeholder-img">
+                        <span>Add photo here</span>
+                    </div>
+                    <figcaption>Office Space - Knoxville</figcaption>
+                </figure>
+
+                <figure class="gallery-item">
+                    <div class="placeholder-img">
+                        <span>Add photo here</span>
+                    </div>
+                    <figcaption>Bathroom Spotless - Sevierville</figcaption>
+                </figure>
+
+                <figure class="gallery-item">
+                    <div class="placeholder-img">
+                        <span>Add photo here</span>
+                    </div>
+                    <figcaption>Hotel Room Turnover</figcaption>
+                </figure>
+
+                <figure class="gallery-item">
+                    <div class="placeholder-img">
+                        <span>Add photo here</span>
+                    </div>
+                    <figcaption>Cabin Deck &amp; Hot Tub Clean</figcaption>
+                </figure>
+
+                <!--
+                    EXAMPLE: When you have a real photo, it looks like this:
+
+                    <figure class="gallery-item">
+                        <img src="images/photos/my-photo.jpg" alt="Freshly cleaned Airbnb living room" loading="lazy">
+                        <figcaption>Airbnb Living Room - Gatlinburg</figcaption>
+                    </figure>
+                -->
+
+            </div>
+
+            <p class="text-center mt-2" style="color: var(--color-text-light);">
+                Photos coming soon! Follow us on <a href="social.html">social media</a> for the latest before &amp; after shots.
+            </p>
+        </div>
+    </section>
+
+    <!-- ===== LIGHTBOX (for full-size photo viewing) ===== -->
+    <div id="lightbox" class="lightbox">
+        <button class="lightbox-close" aria-label="Close">&times;</button>
+        <img id="lightbox-img" src="" alt="">
+    </div>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>Elite Cleaners</h3>
+                <p>Professional cleaning for short-term rentals, offices, hotels, and businesses.<br>Serving Eastern Tennessee.</p>
+                <p style="margin-top: 0.75rem;">
+                    <a href="tel:8648241536">(864) 824-1536</a><br>
+                    <a href="mailto:elitecleaners1@icloud.com">elitecleaners1@icloud.com</a>
+                </p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="social.html">Social</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="photos.html">Photos</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2026 Elite Cleaners. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
